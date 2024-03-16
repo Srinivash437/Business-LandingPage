@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bars</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- -------------------------------------navbar----------------------------------- -->
+    <div class="container-fluid topnavbar" id="navbar">
+      <nav class="navbar navbar-expand-lg w-100">
+        <a class="navbar-brand" href="./index.html">
+          <img
+            src="../img/logo 2.png"
+            alt=""
+            width="70"
+            height="50"
+            class="mx-2 mt-2"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto px-3 mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 rounded" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 rounded" href="./index.html#aboutus"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 rounded" href="./index.html#services"
+                >Services</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle px-lg-3 rounded"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Products
+              </a>
+              <ul class="dropdown-menu p-0 border-0">
+                <li>
+                  <a class="dropdown-item rounded" href="./cups.html">Cups</a>
+                </li>
+                <li>
+                  <a class="dropdown-item rounded" href="./cone.html">Cones</a>
+                </li>
+                <li>
+                  <a class="dropdown-item rounded" href="./bars.html">Bars</a>
+                </li>
+                <li>
+                  <a class="dropdown-item rounded" href="./special.html"
+                    >Specials</a
+                  >
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-lg-3 rounded" href="./index.html#contact"
+                >Contact us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- -------------------------------------content----------------------------------- -->
+    <div class="container-fluid bar py-3" id="bar">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="product">
+            <div class="product-img">
+              <img
+                src="../img/main bar img.png"
+                alt=""
+                width="450"
+                height="400"
+                class="img-fluid bar-img"
+              />
+            </div>
+            <h2>Bars</h2>
+            <p>
+              Ice cream bars rich in chocolate<br />
+              that come in a variety of<br />
+              indulgent flavours
+            </p>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div class="col flavours my-4">
+              <img src="../img/chocobar.png" />
+              <p class="py-2">Chocobar</p>
+            </div>
+            <div class="col flavours my-4">
+              <img src="../img/nutty chocobar.png" />
+              <p class="py-2">Nutty Chocobar</p>
+            </div>
+            <div class="col flavours my-4">
+              <img src="../img/mango bar.png" />
+              <p class="py-2">Mangobar</p>
+            </div>
+            <div class="col flavours my-4">
+              <img src="../img/strawberry bar.png" />
+              <p class="py-2">Strawberrybar</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
